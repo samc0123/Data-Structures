@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Little Search Engine</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Tyger.txt</name>
+			<type>1</type>
+			<location>C:/Users/samch/OneDrive/School Folder/4th Semester/Data Structures/LSE/Tyger.txt</location>
+		</link>
+		<link>
+			<name>jude.txt</name>
+			<type>1</type>
+			<location>C:/Users/samch/OneDrive/School Folder/4th Semester/Data Structures/LSE/jude.txt</location>
+		</link>
+		<link>
+			<name>metamorphosis.txt</name>
+			<type>1</type>
+			<location>C:/Users/samch/OneDrive/School Folder/4th Semester/Data Structures/LSE/metamorphosis.txt</location>
+		</link>
+		<link>
+			<name>pohlx.txt</name>
+			<type>1</type>
+			<location>C:/Users/samch/OneDrive/School Folder/4th Semester/Data Structures/LSE/pohlx.txt</location>
+		</link>
+		<link>
+			<name>pohly.txt</name>
+			<type>1</type>
+			<location>C:/Users/samch/OneDrive/School Folder/4th Semester/Data Structures/LSE/pohly.txt</location>
+		</link>
+	</linkedResources>
+</projectDescription>
