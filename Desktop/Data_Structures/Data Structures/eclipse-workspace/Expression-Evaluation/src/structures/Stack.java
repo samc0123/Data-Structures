@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 /**
+* @Author:Samuel Chernov
+*/
+
+/**
  * A generic stack implementation.
  * 
  * @author ru-nb-cs111
