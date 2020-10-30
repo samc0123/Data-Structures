@@ -1,1 +1,2 @@
-# Sample ReadMe
+# Project Description in process of being updated
+# Please access all code files under src filepath
