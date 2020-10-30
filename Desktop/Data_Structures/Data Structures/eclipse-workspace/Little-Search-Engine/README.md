@@ -85,18 +85,18 @@ See the method documentation for details. Note that this method uses binary sear
 For example, suppose the list had the following frequency values (including the last one, which is to be inserted):
 
 --------------------
-12  8  7  5  3  2  6
+*12  8  7  5  3  2  6*
 --------------------
  0  1  2  3  4  5  6
 Then, the binary search (on the list excluding the last item) would encounter the following sequence of midpoint indexes:
 
-2  4  3
+*2  4  3*
 Note that if a subarray has an even number of items, then the midpoint is the last item in the first half.
 
 After inserting 6, the input list would be updated to this:
 
 --------------------
-12  8  7  6  5  3  2
+**12  8  7  6  5  3  2**
 --------------------
  0  1  2  3  4  5  6
 and the sequence 2 4 3 would be returned.
