@@ -1,9 +1,9 @@
-## Programming Assignment - Expression Evaluation
+# Programming Assignment - Expression Evaluation
 In this assignment you will implement a program to evaluate an arithmetic expression
 
 Worth 80 points (8% of course grade)
 
-# Rules
+## Rules
 You will work on this assignment individually. Read the DCS Academic Integrity Policy for Programming Assignments - you are responsible for abiding by the policy. In particular, note that *"All Violations of the Academic Integrity Policy will be reported by the instructor to the appropriate Dean".*
 
 *IMPORTANT - READ THE FOLLOWING CAREFULLY!!!*
@@ -18,7 +18,7 @@ You are programming outside Eclipse, and you delete the "package" statement at t
 You make some last minute changes, and submit without compiling.
 To avoid these issues, (a) START EARLY, and give yourself plenty of time to work through the assignment, and (b) Submit a version well before the deadline so there is at least something in Autolab to grade.
 
-# Expressions
+## Expressions
 Here are some sample expressions of the kind your program will evaluate:
 
 3
@@ -76,7 +76,7 @@ You are also given the following class in package structures:
 Stack, to be (optionally) used in the evaluation process
 Do not add any other classes. In particular, if you wish to use stacks in your evaluation implementation do NOT use your own stack class, ONLY use the one you are given. The reason is, we will be using this same Stack class when we test your implementation.
 
-# Notes on tokenizing the expression
+## Notes on tokenizing the expression
 
 You will need to separate out ("tokenize") the components of the expression in makeVariableLists and evaluate. Tokens include operands (variables and constants), operators ('+','-','\*','/'), parentheses and square brackets.
 
@@ -90,7 +90,7 @@ For the purpose of this assignment, you may use StringTokenizer without issue. A
 
 Or, you may simply parse the expression by scanning it a character at a time.
 
-# Rules of implementation
+## Rules of implementation
 
 You may NOT modify any of the files except Expression.java in ANY way.
 You may NOT make ANY modifications to Expression.java EXCEPT:
@@ -98,7 +98,7 @@ Write in the bodies of the methods you are asked to implement,
 Add private helper methods as needed (including the recursive evaluate method discussed below.)
 Note that the java.io.*, java.util.*, and java.util.regex.* import statements at the top of the file allow for using ANY class in java.io, java.util, and java.util.regex without additional specification or qualification.
 
-# Guidelines and recommendations for implementing evaluate
+## Guidelines and recommendations for implementing evaluate
 
 **Recursion** (optional) for sub-expressions in parentheses
 
@@ -156,7 +156,7 @@ All input expressions will be correctly formatted
 All input files with values for variables and arrays will be correctly formatted, and will be guaranteed to have values for all variables in the expression that is being evaluated
 So you don't need to do any checking for correctness of inputs in any of the methods.
 
-# Running the evaluator
+## Running the evaluator
 You can test your implementation by running the Evaluator driver on various expressions and input variable values file.
 
 When creating your own variable values files for testing, make sure they are directly under the project folder, alongside etest1.txt and etest2.txt.
@@ -224,7 +224,7 @@ Enter the expression, or hit return to quit =>
 Submission
 Submit your Expression.java source file.
 
-# Frequently Asked Questions
+## Frequently Asked Questions
 Q: Are array names all uppercase?
 
 A: No. Arrays could have lower case letters in their names. You can tell if a variable is an array if it is followed by an opening square bracket. See, for example, the last example in the Expressions section, in which varb and varz are arrays:
