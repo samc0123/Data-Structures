@@ -4,6 +4,10 @@ import java.io.*;
 import java.util.*;
 
 /**
+* @Author: Samuel Chernov
+*/
+
+/**
  * This class builds an index of keywords. Each keyword maps to a set of pages
  * in which it occurs, with frequency of occurrence in each page.
  *
