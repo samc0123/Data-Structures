@@ -5,6 +5,10 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
+* @Author: Samuel Chernov
+*/
+
+/**
  * Implements a MIN-heap data structure.
  */
 public class MinHeap<T extends Comparable<T>> implements Iterable<T> {
