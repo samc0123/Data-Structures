@@ -1,4 +1,6 @@
 # Programming Assignment - Expression Evaluation
+**Please see src/sturcutres filepath for all implementation code**
+
 In this assignment you will implement a program to evaluate an arithmetic expression
 
 Worth 80 points (8% of course grade)
