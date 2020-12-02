@@ -1,5 +1,5 @@
 # Programming Assignment - Little Search Engine
-**Please see *src/lse* filepath for implementation code*
+**Please see *src/lse* filepath for implementation code**
 
 In this assignment you will implement a simple search engine for text documents using hash tables.
 
