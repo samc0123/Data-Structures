@@ -1,4 +1,6 @@
 # Programming Assignment - Polynomial
+**Please see *src/poly* for full implementation**
+
 In this assignment, you will implement a polynomial and operations on it using a linked list.
 
 ## Rules
